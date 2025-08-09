@@ -54,10 +54,6 @@ void printAll() {
 
   Serial.println();
 
-  //Remove if you don't have a GUVA-S12SD
-  GUVA_S12SD.printValues();
-
-  Serial.println();
 }
 
 void sendAll() {
